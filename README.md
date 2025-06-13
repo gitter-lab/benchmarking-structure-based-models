@@ -4,6 +4,10 @@
 
 This is a repository of code needed to replicate benchmarks of structure-based protein fitness prediction models in ProteinGym.
 
+[Exploring zero-shot structure-based protein fitness prediction](https://openreview.net/forum?id=DtpbhlaNdb).  
+Arnav Sharma, Anthony Gitter.  
+*Generative and Experimental Perspectives for Biomolecular Design Workshop at the 13th International Conference on Learning Representations*. 2025.
+
 ## Table of Contents
   * [Setup](#setup)
     * [Conda environment](#conda)
