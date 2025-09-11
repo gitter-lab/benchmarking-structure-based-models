@@ -62,3 +62,7 @@ ProteinGym assays being considered in this study. Files compressed are:
 using mmseqs2. To use this directory:
     * Setup SSEmb as directed in its [repository](https://github.com/KULL-Centre/_2023_Blaabjerg_SSEmb)
     * Download this file and extract it in the data folder.
+
+### Third Party Code:
+This repository uses code from the following repositories:
+* [ProteinGym](https://github.com/OATML-Markslab/ProteinGym/blob/main/proteingym/performance_DMS_benchmarks.py): The recall function used to compute scores in this repository is taken from ProteinGym to maintain consistency across results. Please refer to the linked file for more information.
