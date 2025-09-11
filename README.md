@@ -65,4 +65,5 @@ using mmseqs2. To use this directory:
 
 ### Third Party Code:
 This repository uses code from the following repositories:
-* [ProteinGym](https://github.com/OATML-Markslab/ProteinGym/blob/main/proteingym/performance_DMS_benchmarks.py): The recall function used to compute scores in `scripts/compute_per_function_ssemb_recall.py` and `scripts/compute_per_function_model_recall.py` scripts is taken from ProteinGym to maintain consistency across results. Please refer to the linked file for more information.
+* [ProteinGym](https://github.com/OATML-Markslab/ProteinGym/blob/main/proteingym/performance_DMS_benchmarks.py): The recall function used to compute scores in `scripts/compute_per_function_ssemb_recall.py` scripts is taken from ProteinGym to maintain consistency across results. Please refer to the linked file for more information.
+The code is available under an MIT License.
