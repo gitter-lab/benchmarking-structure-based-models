@@ -4,13 +4,18 @@ import sys, os
 from scipy.stats import spearmanr
 import yaml
 import numpy as np
-'''
-Code Taken from:
-https://github.com/OATML-Markslab/ProteinGym/blob/main/proteingym/performance_DMS_benchmarks.py
 
-For consistency with ProteinGym scores
-'''
-def calc_toprecall(true_scores, model_scores, top_true=10, top_model=10):  
+def calc_toprecall(true_scores, model_scores, top_true=10, top_model=10):
+    '''
+        Code Taken from:
+        https://github.com/OATML-Markslab/ProteinGym/blob/main/proteingym/performance_DMS_benchmarks.py
+        For consistency with ProteinGym scores
+
+        The code is available under an MIT License, copyrighted under:
+
+        MIT License
+        Copyright (c) 2023 OATML-Markslab, Pascal Notin, Aaron Kollasch, Daniel Ritter, Lood van Niekerk
+    '''
     top_true = (true_scores >= np.percentile(true_scores, 100-top_true))
     top_model = (model_scores >= np.percentile(model_scores, 100-top_model))
     
